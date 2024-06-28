@@ -1,0 +1,165 @@
+    1  cd
+    2  CD
+    3  pwd
+    4  wc
+    5  cd
+    6  pwd
+    7  ls
+    8  nano
+    9  pwd
+   10  cp
+   11  pwd
+   12  cp CSB/unix/data/Buzzard2015_about.txt
+   13  pwd
+   14  git clone https://github.com/CSB-book/CSB.git
+   15  pwd
+   16  git clone https://github.com/CSB-book/CSB.git
+   17  pwd
+   18  cd CSB
+   19  pwd
+   20  cd CSB Master
+   21  pwd
+   22  git clone https://github.com/CSB-book/CSB.git
+   23  pwd
+   24  /Users/edison/Desktop/CSB-master 
+   25  ls
+   26  cd CSB-master
+   27  ls -F
+   28  ls -F Desktop
+   29  cd CSB-master
+   30  pwd
+   31  ls
+   32  pwd
+   33  ls -F
+   34  cd Applications/
+   35  cd
+   36  cd Desktop/
+   37  ls -F
+   38  /Applications/CSB-master 
+   39  ls -F
+   40  pwd
+   41  ls
+   42  ls
+   43  pwd
+   44  cd Desktop/
+   45  data-shell/
+   46  cd data-shell/ls
+   47  datashader
+   48  pwd
+   49  ls -F
+   50  cd data-shell/
+   51  ls
+   52  ls -F/Desktop
+   53  ls -F
+   54  cd creatures/
+   55  ls
+   56  ls *.dat
+   57  for filename in basilisk.dat unicorn.dat ; do echo $filename; head -n 2 $filename / tail -n 1; done
+   58  for x in basilisk.dat unicorn.dat ; do echo $x; head; head -n 2 $x ; done
+   59  pwd
+   60  ls -F
+   61  ls -F/ Desktop
+   62  ls Desktop/
+   63  pwd
+   64  cd
+   65  ls -F
+   66  cd Desktop/
+   67  ls -F
+   68  cd data-shell/
+   69  ls -F
+   70  cd data/
+   71  ls -F
+   72  pwd
+   73  pwd
+   74  ls -F
+   75  cd Desktop/
+   76  ls -F
+   77  cd shell-lesson-data/
+   78  ls -F
+   79  cd exercise-data/
+   80  ls -F
+   81  cd alkanes/
+   82  for alkanes in *.pdb; do echo $alkanes; cat $alkanes > alkanes.pdb; done
+   83  pwd
+   84  nano middle.sh
+   85  bash middle.sh
+   86  bash middle.sh propane.pdb
+   87  nano middle.sh
+   88  pwd
+   89  cd..
+   90  ls -F
+   91  cd..
+   92  ls -F
+   93  cd..
+   94  cd
+   95  pwd
+   96  ls -F
+   97  cd Desktop/
+   98  ls -F
+   99  cd shell-lesson-data/
+  100  ls -F
+  101  cd north-pacific-gyre/
+  102  ec2-52-54-222-194.compute-1.amazonaws.compwd
+  103  $ ssh dcuser@
+  104  $ ssh dcuser@ec2-52-54-222-194.compute-1.amazonaws.com
+  105  ls -F
+  106  cd Desktop/
+  107  ssh dcuser@ec2-52-54-222-194.compute-1.amazonaws.com
+  108  data4Carp  
+  109  ssh dcuser@ec2-52-54-222-194.compute-1.amazonaws.com
+  110  ssh dechavez@hoffman2.idre.ucla.edu
+  111  ssh tcouvreur@core.cluster.france-bioinformatique.fr
+  112  ssh tcouvreur@core.cluster.france-bioinformatique.fr
+  113  /opt/anaconda3/pkgs/notebook-7.0.8-py311hecd8cb5_0/bin/jupyter_mac.command ; exit;
+  114  ssh dechavez@hoffman2.idre.ucla.edu
+  115  a2
+  116  /Users/edison/Downloads/BRCA1_refseq_transcript.fasta 
+  117  pwd
+  118  ls
+  119  mkdir planets
+  120  pwd
+  121  cd
+  122  cd planets
+  123  pwd
+  124  ls -a
+  125  subl /ruta/al/archivo.fasta
+  126  subl /ruta/al/archivo.fasta
+  127  subl /ruta/al/archivo.fasta
+  128  text.plain
+  129  text.plain
+  130  ls
+  131  documentos
+  132  pwd
+  133  mkdir proyecto_final
+  134  ls
+  135  proyecto_final/
+  136  cd
+  137  cd proyecto_final/
+  138  /Users/edison/Downloads/Andrés_González_Concordance 
+  139  /Users/edison/Desktop/evo2/Rana\ 2 
+  140  cd
+  141  /Users/edison/Downloads/Andrés_González_Concordance 
+  142  cd
+  143  ls
+  144  proyecto_final/
+  145  cd proyecto_final/
+  146  mkdir data scripts results
+  147  touch README.md
+  148  \`tidyverse\`
+  149  cd scripts/
+  150  \`tidyverse\`
+  151  \`\`\`sh
+  152  "/mnt/data/Andrés_González_Concordance"
+  153  touch rename_map.txt
+  154  cd rename_map.txt 
+  155  BacGas.Mashpi NuevoNombre1
+  156  GCA_000181215.3_Phoenix_dactylifera NuevoNombre2
+  157  GCA_000413155.1_Phoenix_dactylifera NuevoNombre3
+  158  cat <<EOL > rename_map.txt
+  159  while read old new; do sed -i '' "s/$old/$new/g" /mnt/data/Andrés_González_Concordance; done < rename_map.txt
+  160  curl -o rename_map.txt https://ruta/al/archivo/rename_map.txt
+  161  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  162  wget -O rename_map.txt https://ruta/al/archivo/rename_map.txt
+  163  nano rename_map.txt
+  164  wget -O rename_map.txt https://ruta/al/archivo/rename_map.txt
+  165  history > Proyecto_Final.txt
